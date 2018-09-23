@@ -24,6 +24,6 @@ jobs:
           name: "Build Docker"
           command: |
             cp Dockerfile.production Dockerfile
-            docker build -t sirawpol/example-nodejs-express:latest .
-            docker push sirawpol/example-nodejs-express:latest
+            docker build -t sirawpoldocker/example-nodejs-express:latest .
+            docker push sirawpoldocker/example-nodejs-express:latest
       - run: echo Done
